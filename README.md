@@ -2,6 +2,9 @@
 
 > **A production-ready AI Concierge & Commerce SaaS designed for local businesses** (cafés, artisan bakeries, gyms, boutiques, and salons). Powered by React, TypeScript, Node.js/Express, SSE streaming, strict negative grounding, and in-chat conversion workflows.
 
+🌐 **Live Demo**: **[https://canvo-business-app.netlify.app](https://canvo-business-app.netlify.app)**  
+📁 **GitHub**: **[https://github.com/phanikaushik2630-ship-it/Canvo](https://github.com/phanikaushik2630-ship-it/Canvo)**
+
 ---
 
 ## 🚀 Key Highlights & Features
