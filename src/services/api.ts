@@ -9,17 +9,19 @@ import {
   InteractiveOrderPayload
 } from '../types';
 
-const API_BASE = '/api';
+const metaEnv = (import.meta as any)?.env || {};
+const API_BASE = (metaEnv.VITE_API_URL ? `${metaEnv.VITE_API_URL}/api` : '/api');
 
 export function getStoredToken(): string | null {
-  return localStorage.getItem('convo_token');
+  return localStorage.getItem('canvo_token') || localStorage.getItem('convo_token');
 }
 
 export function setStoredToken(token: string) {
-  localStorage.setItem('convo_token', token);
+  localStorage.setItem('canvo_token', token);
 }
 
 export function removeStoredToken() {
+  localStorage.removeItem('canvo_token');
   localStorage.removeItem('convo_token');
 }
 
