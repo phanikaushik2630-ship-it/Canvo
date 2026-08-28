@@ -79,6 +79,80 @@ app.get('/api/exchange-rates', async (req, res) => {
   });
 });
 
+// --- ROOT API DASHBOARD ---
+app.get('/', (req, res) => {
+  if (req.accepts('html')) {
+    res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvo API — Backend Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fraunces:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; background-color: #120F0D; color: #F5EFEB; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+    .card { background: #1C1714; border: 1px solid #332822; border-radius: 24px; padding: 40px; max-width: 580px; width: 100%; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.6); }
+    .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: rgba(16, 185, 129, 0.12); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 9999px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px; }
+    .pulse { width: 8px; height: 8px; background: #10B981; border-radius: 50%; box-shadow: 0 0 10px #10B981; }
+    h1 { font-family: 'Fraunces', serif; font-style: italic; font-size: 32px; font-weight: 700; color: #FFFFFF; margin-bottom: 8px; }
+    p { color: #A89B91; font-size: 14px; line-height: 1.6; margin-bottom: 24px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 28px; }
+    .stat { background: #261F1B; border: 1px solid #3D312A; border-radius: 14px; padding: 14px 16px; }
+    .stat-label { font-size: 11px; text-transform: uppercase; color: #8C7E74; font-weight: 600; letter-spacing: 0.05em; }
+    .stat-val { font-size: 16px; font-weight: 700; color: #FAF7F2; margin-top: 4px; }
+    .endpoints { background: #15110E; border: 1px solid #2B211C; border-radius: 14px; padding: 16px; margin-bottom: 28px; }
+    .endpoints-title { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #D4A373; margin-bottom: 10px; letter-spacing: 0.05em; }
+    .endpoint-link { display: flex; align-items: center; justify-content: space-between; color: #C9633A; text-decoration: none; font-family: monospace; font-size: 13px; padding: 6px 0; border-bottom: 1px solid #261F1B; }
+    .endpoint-link:last-child { border-bottom: none; }
+    .endpoint-link:hover { color: #E2703A; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 20px; background: #C9633A; color: white; text-decoration: none; border-radius: 14px; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background: #B3522C; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge"><div class="pulse"></div> API Engine Online</div>
+    <h1>Canvo Backend API</h1>
+    <p>The Express.js REST & SSE streaming server powering multi-tenant AI concierges, in-chat commerce, and real-time grounding.</p>
+    
+    <div class="grid">
+      <div class="stat">
+        <div class="stat-label">Active Tenants</div>
+        <div class="stat-val">${db.data.businesses.length} Businesses</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Claude LLM Key</div>
+        <div class="stat-val">${Boolean(process.env.ANTHROPIC_API_KEY) ? 'Configured (Live)' : 'Local Fallback'}</div>
+      </div>
+    </div>
+
+    <div class="endpoints">
+      <div class="endpoints-title">Quick API Endpoints</div>
+      <a href="/api/health" class="endpoint-link"><span>GET /api/health</span> <span>→</span></a>
+      <a href="/api/exchange-rates" class="endpoint-link"><span>GET /api/exchange-rates</span> <span>→</span></a>
+      <a href="/api/businesses/slug/maison-mirabelle" class="endpoint-link"><span>GET /api/businesses/slug/maison-mirabelle</span> <span>→</span></a>
+    </div>
+
+    <a href="http://localhost:5173" class="btn">
+      <span>Open Frontend Web App (Port 5173) →</span>
+    </a>
+  </div>
+</body>
+</html>`);
+    return;
+  }
+  res.json({
+    name: 'Canvo Backend API',
+    version: '2.0.0',
+    status: 'online',
+    healthCheck: '/api/health',
+    tenants: db.data.businesses.length
+  });
+});
+
 // --- HEALTH CHECK ---
 app.get('/api/health', (req, res) => {
   res.json({
