@@ -1,0 +1,3672 @@
+{
+  "users": [
+    {
+      "id": "user_demo_01",
+      "email": "demo@canvo.app",
+      "passwordHash": "$2b$10$2E3WA/nL3ofalBvEh6f1WunRPpRMDgvHPmwsMLae9ICnCdADisYW6",
+      "name": "Claire Dupont (Owner)",
+      "createdAt": "2026-08-22T16:52:26.616Z"
+    },
+    {
+      "id": "user_1787936246190_h4zutd",
+      "email": "owner_1787936246030@example.com",
+      "passwordHash": "$2b$10$/ypePIpRxCrtIXmxCJTBDOxPVA/Lohi2kQQkpSOM3V4af8ypyHdwe",
+      "name": "Alex Rivera",
+      "createdAt": "2026-08-28T16:57:26.190Z"
+    },
+    {
+      "id": "user_1787936970317_vo4tg4",
+      "email": "owner_1787936970129@example.com",
+      "passwordHash": "$2b$10$8.8p.hyE9llytjqBWTQFrufAVV0mlzYM9AlmFDNblLXWx7TsN.WMG",
+      "name": "Alex Rivera",
+      "createdAt": "2026-08-28T17:09:30.317Z"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz_maison_mirabelle",
+      "ownerId": "user_demo_01",
+      "slug": "maison-mirabelle",
+      "name": "Maison Mirabelle",
+      "tagline": "Artisanal Boulangerie, Pâtisserie & Botanica",
+      "category": "Artisanal Bakery & Botanical Café",
+      "description": "Slow-fermented 36-hour heritage sourdough, botanical viennoiserie, French-Indian fusion pastries, and floral espresso elixirs crafted by master bakers at dawn.",
+      "story": "Founded in 2019, Maison Mirabelle marries traditional French slow-fermentation methods with locally foraged botanicals, heirloom stone-ground wheat, and organic French butter.",
+      "address": "Shop 14, Heritage Square, Bandra West",
+      "neighborhood": "Bandra West, Mumbai",
+      "phone": "+91 (022) 2640-7491",
+      "email": "bonjour@maisonmirabelle.com",
+      "currency": "₹",
+      "establishedYear": 2019,
+      "heroImage": "/assets/hero.jpg",
+      "detailImage": "/assets/pastries.jpg",
+      "badges": [
+        "36-Hour Wild Fermentation",
+        "French AOP Butter",
+        "Locally Foraged Botanicals",
+        "Organic Heirloom Grains"
+      ],
+      "instagramHandle": "@maisonmirabelle",
+      "createdAt": "2026-07-23T16:52:26.618Z",
+      "updatedAt": "2026-08-22T17:55:26.529Z",
+      "country": "India",
+      "countryCode": "IN",
+      "city": "Mumbai",
+      "currencyCode": "INR"
+    },
+    {
+      "id": "biz_1787936246195_q6rqo",
+      "ownerId": "user_1787936246190_h4zutd",
+      "slug": "alex-rivera-s-shop",
+      "name": "Alex Rivera's Shop",
+      "tagline": "Quality local products & handcrafted experiences",
+      "category": "Local Boutique",
+      "description": "Welcome to our business! Ask our AI concierge anything about our offerings or place an order.",
+      "story": "",
+      "address": "123 Main Street",
+      "neighborhood": "Downtown",
+      "country": "India",
+      "countryCode": "IN",
+      "city": "Mumbai",
+      "phone": "+91 (022) 2640-7491",
+      "email": "contact@example.com",
+      "currency": "₹",
+      "currencyCode": "INR",
+      "establishedYear": 2026,
+      "heroImage": "/assets/hero.jpg",
+      "detailImage": "/assets/pastries.jpg",
+      "badges": [
+        "Locally Owned",
+        "Verified Quality"
+      ],
+      "instagramHandle": "",
+      "createdAt": "2026-08-28T16:57:26.196Z",
+      "updatedAt": "2026-08-28T16:57:26.196Z"
+    },
+    {
+      "id": "biz_1787936970329_x14cz",
+      "ownerId": "user_1787936970317_vo4tg4",
+      "slug": "alex-rivera-s-shop-1",
+      "name": "Alex Rivera's Shop",
+      "tagline": "Quality local products & handcrafted experiences",
+      "category": "Local Boutique",
+      "description": "Welcome to our business! Ask our AI concierge anything about our offerings or place an order.",
+      "story": "",
+      "address": "123 Main Street",
+      "neighborhood": "Downtown",
+      "country": "India",
+      "countryCode": "IN",
+      "city": "Mumbai",
+      "phone": "+91 (022) 2640-7491",
+      "email": "contact@example.com",
+      "currency": "₹",
+      "currencyCode": "INR",
+      "establishedYear": 2026,
+      "heroImage": "/assets/hero.jpg",
+      "detailImage": "/assets/pastries.jpg",
+      "badges": [
+        "Locally Owned",
+        "Verified Quality"
+      ],
+      "instagramHandle": "",
+      "createdAt": "2026-08-28T17:09:30.329Z",
+      "updatedAt": "2026-08-28T17:09:30.329Z"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours_biz_1787936246195_q6rqo_monday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Monday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936246195_q6rqo_tuesday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Tuesday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936246195_q6rqo_wednesday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Wednesday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936246195_q6rqo_thursday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Thursday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936246195_q6rqo_friday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Friday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936246195_q6rqo_saturday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Saturday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936246195_q6rqo_sunday",
+      "businessId": "biz_1787936246195_q6rqo",
+      "day": "Sunday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_monday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Monday",
+      "isOpen": true,
+      "openTime": "07:00",
+      "closeTime": "16:00",
+      "note": "Fresh sourdough drop at 7:30 AM"
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_tuesday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Tuesday",
+      "isOpen": true,
+      "openTime": "07:00",
+      "closeTime": "16:00",
+      "note": "Fresh sourdough drop at 7:30 AM"
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_wednesday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Wednesday",
+      "isOpen": true,
+      "openTime": "07:00",
+      "closeTime": "16:00",
+      "note": "Fresh sourdough drop at 7:30 AM"
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_thursday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Thursday",
+      "isOpen": true,
+      "openTime": "07:00",
+      "closeTime": "16:00",
+      "note": "Fresh sourdough drop at 7:30 AM"
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_friday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Friday",
+      "isOpen": true,
+      "openTime": "07:00",
+      "closeTime": "16:00",
+      "note": "Fresh sourdough drop at 7:30 AM"
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_saturday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Saturday",
+      "isOpen": true,
+      "openTime": "07:30",
+      "closeTime": "17:00",
+      "note": "Weekend signature cruffins & fusion rolls sell out early"
+    },
+    {
+      "id": "hours_biz_maison_mirabelle_sunday",
+      "businessId": "biz_maison_mirabelle",
+      "day": "Sunday",
+      "isOpen": true,
+      "openTime": "07:30",
+      "closeTime": "17:00",
+      "note": "Weekend signature cruffins & fusion rolls sell out early"
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_monday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Monday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_tuesday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Tuesday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_wednesday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Wednesday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_thursday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Thursday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_friday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Friday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_saturday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Saturday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    },
+    {
+      "id": "hours_biz_1787936970329_x14cz_sunday",
+      "businessId": "biz_1787936970329_x14cz",
+      "day": "Sunday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "note": ""
+    }
+  ],
+  "menu": [
+    {
+      "id": "menu_biz_maison_mirabelle_1",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Classic Sourdough Loaf",
+      "category": "Artisan Sourdough",
+      "price": 350,
+      "description": "Our flagship 36-hour slow-fermented batard with a blistering mahogany crust, open custardy crumb, and distinct tangy wild-starter depth.",
+      "dietaryTags": [
+        "Vegan",
+        "Organic",
+        "Nut-Free",
+        "House Favorite"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Heirloom stoneground wheat",
+        "Rye flour",
+        "Water",
+        "Guerande sea salt",
+        "Wild starter culture"
+      ],
+      "preparationNote": "Available warm from the oven starting at 7:30 AM."
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_2",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Botanical Rosewater Croissant",
+      "category": "Viennoiserie & Pastries",
+      "price": 260,
+      "description": "Laminated French butter croissant infused with organic Damask rosewater glaze, dried rose petals, and a hint of wild honey.",
+      "dietaryTags": [
+        "Vegetarian",
+        "House Favorite"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "French AOP butter",
+        "Organic wheat flour",
+        "Damask rosewater",
+        "Wild honey",
+        "Rose petals"
+      ],
+      "preparationNote": "First batch ready at 6:45 AM."
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_3",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Lavender Honey Danish",
+      "category": "Viennoiserie & Pastries",
+      "price": 240,
+      "description": "Flaky pastry wheel filled with wild lavender custard, raw wildflower honey drizzle, and fresh plump blueberries.",
+      "dietaryTags": [
+        "Vegetarian"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Lavender custard",
+        "Wildflower honey",
+        "Fresh blueberries",
+        "Flaky pastry dough"
+      ]
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_4",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Cardamom Chai Bun",
+      "category": "French-Indian Fusion",
+      "price": 180,
+      "description": "Swedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.",
+      "dietaryTags": [
+        "Vegetarian",
+        "Nut-Free",
+        "Fusion Special",
+        "House Favorite"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Green cardamom",
+        "Assam tea concentrate",
+        "Cinnamon",
+        "Cultured butter",
+        "Pearl sugar"
+      ],
+      "preparationNote": "Fresh drop at 6:45 AM & 10:30 AM daily."
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_5",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Saffron Pista Rolls",
+      "category": "French-Indian Fusion",
+      "price": 280,
+      "description": "Soft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.",
+      "dietaryTags": [
+        "Vegetarian",
+        "Fusion Special",
+        "House Favorite"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Kashmiri saffron",
+        "Sicilian pistachios",
+        "Cardamom",
+        "Brioche dough",
+        "Brown sugar"
+      ]
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_6",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Masala Chai",
+      "category": "Botanical Elixirs & Beverages",
+      "price": 120,
+      "description": "Traditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).",
+      "dietaryTags": [
+        "Vegetarian",
+        "Nut-Free",
+        "Fusion Special"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Assam CTC tea",
+        "Fresh ginger root",
+        "Green cardamom",
+        "Cinnamon",
+        "Whole milk / Oat milk"
+      ]
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_7",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Paneer Tikka Puff",
+      "category": "Savory & Lunch",
+      "price": 220,
+      "description": "Golden crisp French puff pastry pocket filled with spiced tandoori paneer cubes, caramelized shallots, roasted bell peppers, and fresh mint chutney.",
+      "dietaryTags": [
+        "Vegetarian",
+        "Nut-Free",
+        "Savory",
+        "Fusion Special"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Marinated artisanal paneer",
+        "Tandoori spice blend",
+        "Shallots",
+        "Mint & coriander chutney",
+        "Puff pastry"
+      ],
+      "preparationNote": "Served warm with a side of house mint dipping sauce."
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_8",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Gulab Jamun Croissant",
+      "category": "French-Indian Fusion",
+      "price": 290,
+      "description": "Double-baked croissant stuffed with soft cardamom milk mawa, soaked in saffron rose syrup, crowned with roasted pistachios and edible silver vark.",
+      "dietaryTags": [
+        "Vegetarian",
+        "Fusion Special",
+        "House Favorite"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Milk mawa",
+        "Saffron syrup",
+        "Rose water",
+        "Pistachios",
+        "Butter croissant"
+      ]
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_9",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Pistachio Cardamom Cruffin",
+      "category": "Viennoiserie & Pastries",
+      "price": 280,
+      "description": "Flaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.",
+      "dietaryTags": [
+        "Vegetarian",
+        "House Favorite"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "French AOP butter",
+        "Organic wheat flour",
+        "Sicilian pistachios",
+        "Cardamom",
+        "Rose petals"
+      ],
+      "preparationNote": "Baked fresh at 6:30 AM & 10:30 AM daily."
+    },
+    {
+      "id": "menu_biz_maison_mirabelle_10",
+      "businessId": "biz_maison_mirabelle",
+      "name": "Gluten-Free Cardamom Hazelnut Financier",
+      "category": "Viennoiserie & Pastries",
+      "price": 210,
+      "description": "Tender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).",
+      "dietaryTags": [
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "isAvailable": true,
+      "ingredients": [
+        "Almond flour",
+        "Hazelnut flour",
+        "Brown butter",
+        "Egg whites",
+        "Cardamom"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq_biz_maison_mirabelle_1",
+      "businessId": "biz_maison_mirabelle",
+      "question": "What are your store hours and holiday schedule in Mumbai?",
+      "answer": "We are open Monday through Friday from 7:00 AM to 4:00 PM, and Saturday & Sunday from 7:30 AM to 5:00 PM at our Bandra West location. On major holidays, our bakery operates special morning hours from 8:00 AM to 1:00 PM for fresh bread pickups.",
+      "category": "Visiting & Hours"
+    },
+    {
+      "id": "faq_biz_maison_mirabelle_2",
+      "businessId": "biz_maison_mirabelle",
+      "question": "How do pre-orders, custom bakery boxes, and catering work?",
+      "answer": "You can place pickup orders directly with Mira in our chat widget or call us at +91 (022) 2640-7491! For large catering orders (pastry platters, corporate breakfasts, whole sourdough batches of 6+ loaves), please place your request at least 24 to 48 hours in advance.",
+      "category": "Pre-Orders & Catering"
+    },
+    {
+      "id": "faq_biz_maison_mirabelle_3",
+      "businessId": "biz_maison_mirabelle",
+      "question": "Do you have Indian items or fusion pastries?",
+      "answer": "Yes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and our savory warm Paneer Tikka Puff (₹220).",
+      "category": "Dietary & Menu"
+    },
+    {
+      "id": "faq_biz_maison_mirabelle_4",
+      "businessId": "biz_maison_mirabelle",
+      "question": "What dietary options (vegan, gluten-free) and spice levels do you have?",
+      "answer": "Our Classic Sourdough (₹350) and Seeded Rye are 100% Vegan. For Gluten-Free guests, we offer the Cardamom Hazelnut Financier (₹210). All our sweet fusion pastries have zero chili heat. The savory Paneer Tikka Puff has a mild-to-medium aromatic tandoori spice blend.",
+      "category": "Dietary & Menu"
+    },
+    {
+      "id": "faq_biz_maison_mirabelle_5",
+      "businessId": "biz_maison_mirabelle",
+      "question": "Are dogs allowed and what is your patio and parking policy in Bandra?",
+      "answer": "Yes! Our leafy botanical patio in Bandra West has 8 tables and is completely dog-friendly with fresh water bowls and handmade sourdough dog biscuits. Dedicated valet parking is available right in front of Heritage Square.",
+      "category": "Amenities & Policies"
+    },
+    {
+      "id": "faq_biz_maison_mirabelle_6",
+      "businessId": "biz_maison_mirabelle",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept UPI (GPay, PhonePe, Paytm), all major credit and debit cards (Visa, Mastercard, RuPay, Amex), Apple Pay, contactless chip payments, and cash at our counter.",
+      "category": "Payments & Checkout"
+    },
+    {
+      "id": "faq_biz_maison_mirabelle_7",
+      "businessId": "biz_maison_mirabelle",
+      "question": "When do fresh croissants and sourdough loaves come out of the oven?",
+      "answer": "Our first batch of hot croissants, cruffins, and fusion rolls drops at 6:45 AM right as we open. Warm sourdough loaves come out at 7:30 AM, with a secondary pastry drop at 10:30 AM daily.",
+      "category": "Baking Schedule"
+    }
+  ],
+  "bot_configs": [
+    {
+      "id": "bot_biz_maison_mirabelle",
+      "businessId": "biz_maison_mirabelle",
+      "botName": "Mira",
+      "botRoleTitle": "Head Concierge & Pâtisserie Guide",
+      "avatarUrl": "/assets/mira-avatar.jpg",
+      "themeColor": "#C9633A",
+      "accentColor": "#4D6652",
+      "welcomeMessage": "Namaste & Bonjour! I am Mira, your concierge at Maison Mirabelle in Bandra, Mumbai. How may I assist you today? Feel free to ask about our 36h sourdough loaves, Indian fusion pastries, daily bake drops, or place an order in ₹ / book a table!",
+      "tone": "warm_artisan",
+      "strictnessLevel": 5,
+      "customInstructions": "Speak with a warm, refined, hospitable bakery charm. Always quote prices accurately in INR (₹). If asked about Indian items, enthusiastically mention the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and Paneer Tikka Puff (₹220). Never invent unlisted products.",
+      "prohibitedTopics": [
+        "Coding and technical programming",
+        "Competitor bakeries",
+        "Medical advice"
+      ],
+      "fallbackPhoneMessage": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "suggestedQuestions": [
+        "Do you have any Indian items?",
+        "What are your hours on Sunday?",
+        "I would like to order 2 cruffins",
+        "Can I book a table on the patio?"
+      ],
+      "commerceMode": "both"
+    },
+    {
+      "id": "bot_biz_1787936246195_q6rqo",
+      "businessId": "biz_1787936246195_q6rqo",
+      "botName": "Concierge",
+      "botRoleTitle": "Customer Guide",
+      "avatarUrl": "/assets/mira-avatar.jpg",
+      "themeColor": "#C9633A",
+      "accentColor": "#4D6652",
+      "welcomeMessage": "Hello! I am the AI Concierge for Alex Rivera's Shop. How can I assist you today?",
+      "tone": "warm_artisan",
+      "strictnessLevel": 5,
+      "commerceMode": "both",
+      "customInstructions": "Assist customers accurately with information about Alex Rivera's Shop. Never speculate on unlisted items.",
+      "prohibitedTopics": [
+        "Coding questions",
+        "Competitor reviews"
+      ],
+      "fallbackPhoneMessage": "Please contact us directly at +91 (022) 2640-7491 for further assistance!",
+      "suggestedQuestions": [
+        "What are your opening hours?",
+        "I would like to place an order",
+        "Can I book a table / appointment?"
+      ]
+    },
+    {
+      "id": "bot_biz_1787936970329_x14cz",
+      "businessId": "biz_1787936970329_x14cz",
+      "botName": "Concierge",
+      "botRoleTitle": "Customer Guide",
+      "avatarUrl": "/assets/mira-avatar.jpg",
+      "themeColor": "#C9633A",
+      "accentColor": "#4D6652",
+      "welcomeMessage": "Hello! I am the AI Concierge for Alex Rivera's Shop. How can I assist you today?",
+      "tone": "warm_artisan",
+      "strictnessLevel": 5,
+      "commerceMode": "both",
+      "customInstructions": "Assist customers accurately with information about Alex Rivera's Shop. Never speculate on unlisted items.",
+      "prohibitedTopics": [
+        "Coding questions",
+        "Competitor reviews"
+      ],
+      "fallbackPhoneMessage": "Please contact us directly at +91 (022) 2640-7491 for further assistance!",
+      "suggestedQuestions": [
+        "What are your opening hours?",
+        "I would like to place an order",
+        "Can I book a table / appointment?"
+      ]
+    }
+  ],
+  "chat_logs": [
+    {
+      "id": "log_1787936963484_mhn21",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I book a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T17:09:23.484Z"
+    },
+    {
+      "id": "log_1787936963095_i3ycq",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Pistachio Cruffins please",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T17:09:23.095Z"
+    },
+    {
+      "id": "log_1787936485277_dc5ab",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "what is your opeing hours",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Friday):** 07:00 – 16:00 *(Fresh sourdough drop at 7:30 AM)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T17:01:25.277Z"
+    },
+    {
+      "id": "log_1787936476490_01ez6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Are you open on Friday and what are the freshest drop times?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Friday):** 07:00 – 16:00 *(Fresh sourdough drop at 7:30 AM)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T17:01:16.490Z"
+    },
+    {
+      "id": "log_1787936253917_mdxbp",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:33.917Z"
+    },
+    {
+      "id": "log_1787936237548_0z6bv",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I book a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:17.548Z"
+    },
+    {
+      "id": "log_1787936237173_4s8in",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Pistachio Cruffins please",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:17.173Z"
+    },
+    {
+      "id": "log_1787936230028_rhapx",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I reserve a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:10.028Z"
+    },
+    {
+      "id": "log_1787936229639_0ky42",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 2 cruffins and 1 sourdough loaf",
+      "botAnswer": "Delighted to help you with that order for **2x Classic Sourdough Loaf and 2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:09.639Z"
+    },
+    {
+      "id": "log_1787936229024_z1v0l",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours today?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Friday):** 07:00 – 16:00 *(Fresh sourdough drop at 7:30 AM)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:09.024Z"
+    },
+    {
+      "id": "log_1787936227852_tlgeb",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell replacement car batteries?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-28T16:57:07.852Z"
+    },
+    {
+      "id": "log_1787936227601_mur70",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "**Are dogs allowed and what is your patio and parking policy in Bandra?**\n\nYes! Our leafy botanical patio in Bandra West has 8 tables and is completely dog-friendly with fresh water bowls and handmade sourdough dog biscuits. Dedicated valet parking is available right in front of Heritage Square.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:07.601Z"
+    },
+    {
+      "id": "log_1787936227085_ykij6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:57:07.085Z"
+    },
+    {
+      "id": "log_1787936064508_ynxqp",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I book a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:54:24.508Z"
+    },
+    {
+      "id": "log_1787936064121_xq61f",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Pistachio Cruffins please",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-28T16:54:24.121Z"
+    },
+    {
+      "id": "log_1787425775521_vx4cq",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T19:09:35.521Z"
+    },
+    {
+      "id": "log_1787425189558_nur0a",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 1 Classic Sourdough Loaf",
+      "botAnswer": "Delighted to help you with that order for **1x Classic Sourdough Loaf**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:59:49.558Z"
+    },
+    {
+      "id": "log_1787425173549_9db24",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "order",
+      "botAnswer": "Delighted to help you with that order for **1x Classic Sourdough Loaf**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:59:33.549Z"
+    },
+    {
+      "id": "log_1787425160126_v7gyq",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "masala chai",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:59:20.126Z"
+    },
+    {
+      "id": "log_1787425143778_rquiz",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "masala tea",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T18:59:03.778Z"
+    },
+    {
+      "id": "log_1787425134283_qcfa9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and our savory warm Paneer Tikka Puff (₹220).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:58:54.283Z"
+    },
+    {
+      "id": "log_1787425009077_elgbf",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:56:49.077Z"
+    },
+    {
+      "id": "log_1787424750312_9iuhj",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:52:30.312Z"
+    },
+    {
+      "id": "log_1787423795252_hyjk5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What time do you open and close on Monday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Sunday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:36:35.252Z"
+    },
+    {
+      "id": "log_1787423789458_uwvek",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:36:29.458Z"
+    },
+    {
+      "id": "log_1787423399703_ok38i",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:29:59.703Z"
+    },
+    {
+      "id": "log_1787422851047_6jqq0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:20:51.047Z"
+    },
+    {
+      "id": "log_1787422579377_li2j0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Gulab Jamun Croissants",
+      "botAnswer": "Delighted to help you with that order for **2x Gulab Jamun Croissant**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:16:19.377Z"
+    },
+    {
+      "id": "log_1787422578953_ny8bm",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell laptop chargers or phone cables?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T18:16:18.954Z"
+    },
+    {
+      "id": "log_1787422578687_l7cuh",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Paneer Tikka Puff?",
+      "botAnswer": "**Paneer Tikka Puff** (₹220.00) [Vegetarian, Nut-Free, Savory, Fusion Special]\n\nGolden crisp French puff pastry pocket filled with spiced tandoori paneer cubes, caramelized shallots, roasted bell peppers, and fresh mint chutney.\n\n*Key Ingredients:* Marinated artisanal paneer, Tandoori spice blend, Shallots, Mint & coriander chutney, Puff pastry\n\n*Note:* Served warm with a side of house mint dipping sauce.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:16:18.687Z"
+    },
+    {
+      "id": "log_1787422578111_dgx6p",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Sunday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:16:18.111Z"
+    },
+    {
+      "id": "log_1787422577013_ls1fk",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items or fusion pastries?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and our savory warm Paneer Tikka Puff (₹220).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:16:17.013Z"
+    },
+    {
+      "id": "log_1787422570825_qumjc",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:16:10.825Z"
+    },
+    {
+      "id": "log_1787422144449_iy77c",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What time do you open and close on Monday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:09:04.449Z"
+    },
+    {
+      "id": "log_1787421604149_746je",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Gulab Jamun Croissants",
+      "botAnswer": "Delighted to help you with that order for **2x Gulab Jamun Croissant**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:00:04.149Z"
+    },
+    {
+      "id": "log_1787421603729_h21ph",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell laptop chargers or phone cables?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T18:00:03.729Z"
+    },
+    {
+      "id": "log_1787421603464_z994w",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Paneer Tikka Puff?",
+      "botAnswer": "**Paneer Tikka Puff** (₹220.00) [Vegetarian, Nut-Free, Savory, Fusion Special]\n\nGolden crisp French puff pastry pocket filled with spiced tandoori paneer cubes, caramelized shallots, roasted bell peppers, and fresh mint chutney.\n\n*Key Ingredients:* Marinated artisanal paneer, Tandoori spice blend, Shallots, Mint & coriander chutney, Puff pastry\n\n*Note:* Served warm with a side of house mint dipping sauce.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:00:03.464Z"
+    },
+    {
+      "id": "log_1787421602888_17la9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Sunday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:00:02.888Z"
+    },
+    {
+      "id": "log_1787421601800_0s9aj",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items or fusion pastries?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and our savory warm Paneer Tikka Puff (₹220).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T18:00:01.800Z"
+    },
+    {
+      "id": "log_1787421587019_rserh",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Gulab Jamun Croissants",
+      "botAnswer": "Delighted to help you with that order for **2x Gulab Jamun Croissant**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:59:47.019Z"
+    },
+    {
+      "id": "log_1787421586600_xh1gn",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell laptop chargers or phone cables?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T17:59:46.600Z"
+    },
+    {
+      "id": "log_1787421586335_wpzf9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Paneer Tikka Puff?",
+      "botAnswer": "**Paneer Tikka Puff** (₹220.00) [Vegetarian, Nut-Free, Savory, Fusion Special]\n\nGolden crisp French puff pastry pocket filled with spiced tandoori paneer cubes, caramelized shallots, roasted bell peppers, and fresh mint chutney.\n\n*Key Ingredients:* Marinated artisanal paneer, Tandoori spice blend, Shallots, Mint & coriander chutney, Puff pastry\n\n*Note:* Served warm with a side of house mint dipping sauce.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:59:46.335Z"
+    },
+    {
+      "id": "log_1787421585759_2i6oi",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Sunday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:59:45.759Z"
+    },
+    {
+      "id": "log_1787421584636_436hw",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items or fusion pastries?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and our savory warm Paneer Tikka Puff (₹220).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:59:44.636Z"
+    },
+    {
+      "id": "log_1787421579314_gc75k",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:59:39.314Z"
+    },
+    {
+      "id": "log_1787420210429_apagq",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 1 Paneer Tikka Puff",
+      "botAnswer": "Delighted to help you with that order for **1x Paneer Tikka Puff**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:36:50.429Z"
+    },
+    {
+      "id": "log_1787419906790_27ken",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "order",
+      "botAnswer": "Delighted to help you with that order for **1x Classic Sourdough Loaf**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:31:46.790Z"
+    },
+    {
+      "id": "log_1787419859605_cg7uv",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "masala chai",
+      "botAnswer": "**Cardamom Chai Bun** ($5.50) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Masala Chai** ($4.75) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:30:59.605Z"
+    },
+    {
+      "id": "log_1787419846165_xdxfn",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "can i see all items",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun ($5.50), Saffron Pista Roll ($6.75), Gulab Jamun Croissant ($7.00), Masala Chai ($4.75), and our savory warm Paneer Tikka Puff ($6.50).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:30:46.165Z"
+    },
+    {
+      "id": "log_1787419819209_sbu8z",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun ($5.50), Saffron Pista Roll ($6.75), Gulab Jamun Croissant ($7.00), Masala Chai ($4.75), and our savory warm Paneer Tikka Puff ($6.50).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:30:19.209Z"
+    },
+    {
+      "id": "log_1787419560856_rt6u9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Gulab Jamun Croissants",
+      "botAnswer": "Delighted to help you with that order for **2x Gulab Jamun Croissant**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:26:00.856Z"
+    },
+    {
+      "id": "log_1787419560436_ffzis",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell laptop chargers or phone cables?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T17:26:00.436Z"
+    },
+    {
+      "id": "log_1787419560171_no2rg",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Paneer Tikka Puff?",
+      "botAnswer": "**Paneer Tikka Puff** ($6.50) [Vegetarian, Nut-Free, Savory, Fusion Special]\n\nGolden crisp French puff pastry pocket filled with spiced tandoori paneer cubes, caramelized shallots, roasted bell peppers, and fresh mint chutney.\n\n*Key Ingredients:* Marinated artisanal paneer, Tandoori spice blend, Shallots, Mint & coriander chutney, Puff pastry\n\n*Note:* Served warm with a side of house mint dipping sauce.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:26:00.171Z"
+    },
+    {
+      "id": "log_1787419559591_qodwi",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Sunday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:25:59.591Z"
+    },
+    {
+      "id": "log_1787419558403_r57x9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items or fusion pastries?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun ($5.50), Saffron Pista Roll ($6.75), Gulab Jamun Croissant ($7.00), Masala Chai ($4.75), and our savory warm Paneer Tikka Puff ($6.50).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:25:58.403Z"
+    },
+    {
+      "id": "log_1787419480375_x2qoz",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Gulab Jamun Croissants",
+      "botAnswer": "Delighted to help you with that order for **2x Gulab Jamun Croissant**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:24:40.375Z"
+    },
+    {
+      "id": "log_1787419479934_0zneb",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell laptop chargers or phone cables?",
+      "botAnswer": "**Maison Mirabelle** is located at:\n\n📍 **428 Rue Botanique, Suite 100, West Village** (Historic District / West Village)\n\n📞 **Phone:** (555) 382-7491\n✉️ **Email:** bonjour@maisonmirabelle.com\n\nFeel free to stop by or get in touch with our team!",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:24:39.934Z"
+    },
+    {
+      "id": "log_1787419479576_oazkf",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Paneer Tikka Puff?",
+      "botAnswer": "**Paneer Tikka Puff** ($6.50) [Vegetarian, Nut-Free, Savory, Fusion Special]\n\nGolden crisp French puff pastry pocket filled with spiced tandoori paneer cubes, caramelized shallots, roasted bell peppers, and fresh mint chutney.\n\n*Key Ingredients:* Marinated artisanal paneer, Tandoori spice blend, Shallots, Mint & coriander chutney, Puff pastry\n\n*Note:* Served warm with a side of house mint dipping sauce.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:24:39.576Z"
+    },
+    {
+      "id": "log_1787419478997_nai0o",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Sunday?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:24:38.997Z"
+    },
+    {
+      "id": "log_1787419477813_4snuo",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have any Indian items or fusion pastries?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun ($5.50), Saffron Pista Roll ($6.75), Gulab Jamun Croissant ($7.00), Masala Chai ($4.75), and our savory warm Paneer Tikka Puff ($6.50).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:24:37.813Z"
+    },
+    {
+      "id": "log_1787419131288_4q3li",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I reserve a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:18:51.288Z"
+    },
+    {
+      "id": "log_1787419130898_ohtfr",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 2 cruffins and 1 sourdough loaf",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin and 2x Wild Country Hearth Sourdough Loaf**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:18:50.898Z"
+    },
+    {
+      "id": "log_1787419130386_w9jdx",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours today?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:18:50.386Z"
+    },
+    {
+      "id": "log_1787419129306_mkmwk",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell replacement car batteries?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T17:18:49.306Z"
+    },
+    {
+      "id": "log_1787419129042_6qvzg",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "**Are dogs allowed on the outdoor patio?**\n\nYes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and complimentary handmade dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:18:49.042Z"
+    },
+    {
+      "id": "log_1787419128699_1hjpa",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "**Pistachio Cardamom Cruffin** ($6.50) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:18:48.699Z"
+    },
+    {
+      "id": "log_1787419032213_1emwx",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I reserve a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:17:12.213Z"
+    },
+    {
+      "id": "log_1787419031821_y2yp5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 2 cruffins and 1 sourdough loaf",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin and 2x Wild Country Hearth Sourdough Loaf**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:17:11.821Z"
+    },
+    {
+      "id": "log_1787419031306_djliu",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours today?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:17:11.306Z"
+    },
+    {
+      "id": "log_1787419030295_rqxe0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell replacement car batteries?",
+      "botAnswer": "Here are our offerings at **Maison Mirabelle**:\n\n### Viennoiserie & Pastries\n• **Pistachio Cardamom Cruffin** ($6.50) — *Flaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.*\n• **Gluten-Free Cardamom Hazelnut Financier** ($5.25) — *Tender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).*\n\n### Artisan Sourdough\n• **Wild Country Hearth Sourdough Loaf** ($9.50) — *Our flagship 36-hour slow-fermented batard with a blistering mahogany crust, open custardy crumb, and distinct tangy depth.*\n\n### Botanical Elixirs & Espresso\n• **Lavender Honey Cloud Oat Latte** ($6.75) — *Double shot of single-origin Ethiopian espresso, infused with culinary lavender blossom syrup, raw wildflower honey, and microfoamed oat milk.*\n\nLet me know if you would like more details about any specific item, or if you'd like to place an order!",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:17:10.295Z"
+    },
+    {
+      "id": "log_1787419028851_uen4y",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "**Are dogs allowed on the outdoor patio?**\n\nYes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and complimentary handmade dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:17:08.851Z"
+    },
+    {
+      "id": "log_1787419028504_dg8ks",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "**Pistachio Cardamom Cruffin** ($6.50) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:17:08.504Z"
+    },
+    {
+      "id": "log_1787418369096_s2be6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is your return policy on pastries?",
+      "botAnswer": "Here are our offerings at **Maison Mirabelle**:\n\n### Viennoiserie & Pastries\n• **Pistachio Cardamom Cruffin** ($6.50) — *Flaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.*\n• **Gluten-Free Cardamom Hazelnut Financier** ($5.25) — *Tender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).*\n\n### Artisan Sourdough\n• **Wild Country Hearth Sourdough Loaf** ($9.50) — *Our flagship 36-hour slow-fermented batard with a blistering mahogany crust, open custardy crumb, and distinct tangy depth.*\n\n### Botanical Elixirs & Espresso\n• **Lavender Honey Cloud Oat Latte** ($6.75) — *Double shot of single-origin Ethiopian espresso, infused with culinary lavender blossom syrup, raw wildflower honey, and microfoamed oat milk.*\n\nLet me know if you would like more details about any specific item, or if you'd like to place an order!",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:06:09.096Z"
+    },
+    {
+      "id": "log_1787418361484_qz6xy",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I book a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:06:01.484Z"
+    },
+    {
+      "id": "log_1787418361094_nfy54",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Pistachio Cruffins please",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T17:06:01.094Z"
+    },
+    {
+      "id": "log_1787417940300_c2d1k",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is your return policy on pastries?",
+      "botAnswer": "Here are our offerings at **Maison Mirabelle**:\n\n### Viennoiserie & Pastries\n• **Pistachio Cardamom Cruffin** ($6.50) — *Flaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.*\n• **Gluten-Free Cardamom Hazelnut Financier** ($5.25) — *Tender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).*\n\n### Artisan Sourdough\n• **Wild Country Hearth Sourdough Loaf** ($9.50) — *Our flagship 36-hour slow-fermented batard with a blistering mahogany crust, open custardy crumb, and distinct tangy depth.*\n\n### Botanical Elixirs & Espresso\n• **Lavender Honey Cloud Oat Latte** ($6.75) — *Double shot of single-origin Ethiopian espresso, infused with culinary lavender blossom syrup, raw wildflower honey, and microfoamed oat milk.*\n\nLet me know if you would like more details about any specific item!",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T16:59:00.300Z"
+    },
+    {
+      "id": "log_1787417558513_qxcdd",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is your return policy on pastries?",
+      "botAnswer": "Here are our offerings at **Maison Mirabelle**:\n\n### Viennoiserie & Pastries\n• **Pistachio Cardamom Cruffin** ($6.50) — *Flaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.*\n• **Gluten-Free Cardamom Hazelnut Financier** ($5.25) — *Tender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).*\n\n### Artisan Sourdough\n• **Wild Country Hearth Sourdough Loaf** ($9.50) — *Our flagship 36-hour slow-fermented batard with a blistering mahogany crust, open custardy crumb, and distinct tangy depth.*\n\n### Botanical Elixirs & Espresso\n• **Lavender Honey Cloud Oat Latte** ($6.75) — *Double shot of single-origin Ethiopian espresso, infused with culinary lavender blossom syrup, raw wildflower honey, and microfoamed oat milk.*\n\nLet me know if you would like more details about any specific item!",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T16:52:38.513Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T12:18:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T10:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_23",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T10:01:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_18",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T09:49:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_21",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T05:29:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_17",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T04:25:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T03:13:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T03:07:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T02:43:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T02:37:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T02:28:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-22T01:51:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T01:41:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_36",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T01:31:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_17",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-22T01:30:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-21T07:14:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-21T05:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-21T05:10:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-21T04:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_21",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-21T04:27:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_34",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-21T03:18:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-21T02:43:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-21T01:59:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-21T01:54:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-20T11:27:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_23",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T07:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T05:15:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_16",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T05:11:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-20T05:07:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T04:42:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T03:25:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-20T03:18:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T02:53:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_16",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T02:33:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-20T01:41:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-20T01:32:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-20T01:17:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-19T09:17:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-19T09:06:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_19",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-19T05:28:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-19T05:26:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_17",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-19T04:13:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_28",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-19T03:14:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_22",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T09:02:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T04:51:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_24",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T04:50:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T04:45:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T04:08:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_21",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T03:46:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T03:18:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T02:49:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-18T02:15:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-18T02:09:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_18",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T11:09:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T07:19:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T06:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T04:35:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-17T04:31:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-17T03:59:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T03:40:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T03:34:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-17T03:31:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-17T01:57:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-17T01:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_21",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T10:36:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_39",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T08:57:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T07:51:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_25",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T06:18:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-16T06:14:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T05:14:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T04:42:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T04:40:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T03:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T03:43:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_17",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T02:59:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_27",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T01:41:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-16T00:45:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_16",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T09:25:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T08:45:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T05:08:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T05:03:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T04:33:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T04:03:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_37",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T02:51:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_20",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-15T02:22:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-14T08:55:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-14T05:06:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-14T04:30:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-14T04:30:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-14T03:35:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-14T03:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-14T02:02:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_27",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-14T01:37:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-13T08:12:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-13T04:03:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-13T02:57:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-13T02:37:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T05:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T05:24:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T05:02:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T04:45:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T04:14:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T03:56:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-12T03:55:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_16",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-12T03:02:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_26",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T09:35:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_18",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T07:29:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_20",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T04:57:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T04:04:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T02:16:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T01:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-11T01:42:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T11:54:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T10:26:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T07:11:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-10T06:31:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T05:14:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T05:01:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-10T04:49:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-10T04:06:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_31",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T03:42:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T03:21:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T02:24:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-10T01:49:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-09T09:06:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_23",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-09T08:34:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_28",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-09T04:34:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_24",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-09T02:35:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_29",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T12:18:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_17",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T10:32:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T09:33:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T08:46:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T05:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T05:15:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-08T04:19:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T03:43:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T02:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T02:41:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T02:31:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_25",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-08T01:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_32",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-07T12:28:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_29",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-07T11:29:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-07T05:05:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_16",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-07T03:55:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_32",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-07T03:34:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-07T02:41:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_22",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-06T04:44:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_33",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-06T04:33:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_19",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-06T03:52:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-06T01:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_34",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-06T01:53:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-06T00:57:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T10:21:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T04:11:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_19",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T04:06:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T03:51:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_33",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T03:48:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T03:05:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T02:56:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-05T02:42:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-05T02:08:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-05T01:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_40",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-04T05:29:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_22",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-04T05:04:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-04T02:32:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_41",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-04T02:31:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_24",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-04T02:11:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T12:06:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_22",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T11:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-03T09:13:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_17",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T07:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_11",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T04:47:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_20",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T04:27:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_16",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T03:23:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T03:15:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-03T02:01:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-02T12:21:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-02T05:07:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-02T05:04:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-02T04:59:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_23",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-02T03:56:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-02T02:50:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-01T11:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-01T04:20:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_30",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-01T03:45:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-01T02:43:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_13",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-01T01:50:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-31T09:20:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-31T05:08:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_6_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What kind of plant-based milks do you have?",
+      "botAnswer": "We serve Minor Figures organic oat milk and house-pressed almond milk for all espresso drinks.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-31T04:11:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-31T03:53:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_25",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-31T03:39:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_20",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-31T02:40:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_35",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T03:57:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T03:48:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_8_0",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell sourdough starter jars to take home?",
+      "botAnswer": "I don't have that specific detail in our notes, but please check with our front counter at (555) 382-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-30T03:22:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_18",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T03:13:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_9_5",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Is there a minimum spend for private evening events?",
+      "botAnswer": "I don't have that specific detail in our notes. Please contact our events team at bonjour@maisonmirabelle.com.",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-30T03:10:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_30",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T03:07:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_14",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T02:37:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T02:33:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_19",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T02:15:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-30T01:50:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_9",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-30T00:50:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_26",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T05:21:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_5_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Tell me about your 36h sourdough loaf",
+      "botAnswer": "Our flagship 36-hour slow-fermented batard ($9.50) features a blistering mahogany crust and custardy crumb made with heirloom grains.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T05:21:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_27",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T04:39:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_10_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you validate parking for the West 4th Garage?",
+      "botAnswer": "I don't have that specific detail in our current notes. Please ask our front cashier during your visit!",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-29T03:28:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_31",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T02:39:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_26",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T02:07:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T01:58:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_1_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you have gluten-free or vegan options?",
+      "botAnswer": "Yes! For gluten-free guests, we offer the Cardamom Hazelnut Financier. For vegan guests, our Wild Country Sourdough, Roasted Garlic Boule, and Danish Rye are 100% plant-based.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T01:37:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-29T01:35:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-28T04:48:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-28T01:33:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_12",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-28T01:00:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_10",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-28T00:50:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_0_2",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "The Pistachio Cardamom Cruffin ($6.50) features flaky laminated croissant dough filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar and organic rose petals.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-27T10:56:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_3_7",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "Yes! Our leafy botanical patio has 8 tables and is completely dog-friendly with fresh water bowls and dog sourdough biscuits.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-27T02:59:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_38",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-26T05:28:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_2_15",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours on Saturday and Sunday?",
+      "botAnswer": "On Saturdays we are open 7:30 AM – 5:00 PM, and on Sundays 7:30 AM – 4:00 PM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-26T04:26:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_7_8",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you make custom wedding or tiered birthday cakes?",
+      "botAnswer": "I don't have that specific detail in our notes, but please give our bakery team a call at (555) 382-7491 or email bonjour@maisonmirabelle.com!",
+      "wasUnanswered": true,
+      "timestamp": "2026-07-26T03:55:00.000Z"
+    },
+    {
+      "id": "log_biz_maison_mirabelle_4_18",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "When do fresh croissants come out of the oven?",
+      "botAnswer": "Our first batch of hot croissants comes out of the oven at 6:45 AM, with a secondary drop at 10:30 AM.",
+      "wasUnanswered": false,
+      "timestamp": "2026-07-26T03:31:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1787936962646_tgqp6",
+      "orderNumber": "MM-9258",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Henri Laurent",
+      "customerPhone": "(555) 902-1844",
+      "paymentPreference": "N/A",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 4,
+        "date": "Saturday (Tomorrow)",
+        "time": "11:00 AM",
+        "areaPreference": "Botanical Outdoor Patio"
+      },
+      "totalAmount": 0,
+      "status": "new",
+      "specialInstructions": "Celebrating a graduation",
+      "createdAt": "2026-08-28T17:09:22.646Z",
+      "updatedAt": "2026-08-28T17:09:22.646Z"
+    },
+    {
+      "id": "ord_1787936962637_h1j3r",
+      "orderNumber": "MM-5408",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Camille Dubois",
+      "customerPhone": "(555) 771-4920",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Pistachio Cardamom Cruffin",
+          "quantity": 3,
+          "price": 6.5
+        },
+        {
+          "name": "Wild Country Hearth Sourdough Loaf",
+          "quantity": 1,
+          "price": 9.5
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 29,
+      "status": "confirmed",
+      "specialInstructions": "Warm the cruffins if possible",
+      "createdAt": "2026-08-28T17:09:22.637Z",
+      "updatedAt": "2026-08-28T17:09:22.677Z"
+    },
+    {
+      "id": "ord_1787936236727_hyi5b",
+      "orderNumber": "MM-2326",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Henri Laurent",
+      "customerPhone": "(555) 902-1844",
+      "paymentPreference": "N/A",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 4,
+        "date": "Saturday (Tomorrow)",
+        "time": "11:00 AM",
+        "areaPreference": "Botanical Outdoor Patio"
+      },
+      "totalAmount": 0,
+      "status": "new",
+      "specialInstructions": "Celebrating a graduation",
+      "createdAt": "2026-08-28T16:57:16.727Z",
+      "updatedAt": "2026-08-28T16:57:16.727Z"
+    },
+    {
+      "id": "ord_1787936236716_54qsb",
+      "orderNumber": "MM-6029",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Camille Dubois",
+      "customerPhone": "(555) 771-4920",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Pistachio Cardamom Cruffin",
+          "quantity": 3,
+          "price": 6.5
+        },
+        {
+          "name": "Wild Country Hearth Sourdough Loaf",
+          "quantity": 1,
+          "price": 9.5
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 29,
+      "status": "confirmed",
+      "specialInstructions": "Warm the cruffins if possible",
+      "createdAt": "2026-08-28T16:57:16.716Z",
+      "updatedAt": "2026-08-28T16:57:16.757Z"
+    },
+    {
+      "id": "ord_1787936063664_u8mzd",
+      "orderNumber": "MM-5493",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Henri Laurent",
+      "customerPhone": "(555) 902-1844",
+      "paymentPreference": "N/A",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 4,
+        "date": "Saturday (Tomorrow)",
+        "time": "11:00 AM",
+        "areaPreference": "Botanical Outdoor Patio"
+      },
+      "totalAmount": 0,
+      "status": "new",
+      "specialInstructions": "Celebrating a graduation",
+      "createdAt": "2026-08-28T16:54:23.664Z",
+      "updatedAt": "2026-08-28T16:54:23.664Z"
+    },
+    {
+      "id": "ord_1787936063656_r0nw9",
+      "orderNumber": "MM-3521",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Camille Dubois",
+      "customerPhone": "(555) 771-4920",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Pistachio Cardamom Cruffin",
+          "quantity": 3,
+          "price": 6.5
+        },
+        {
+          "name": "Wild Country Hearth Sourdough Loaf",
+          "quantity": 1,
+          "price": 9.5
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 29,
+      "status": "confirmed",
+      "specialInstructions": "Warm the cruffins if possible",
+      "createdAt": "2026-08-28T16:54:23.656Z",
+      "updatedAt": "2026-08-28T16:54:23.697Z"
+    },
+    {
+      "id": "ord_1787425781089_9tain",
+      "orderNumber": "MM-1877",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Priya Sharma",
+      "customerPhone": "+91 98111 67890",
+      "paymentPreference": "Cash",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 350,
+      "status": "new",
+      "specialInstructions": "Warm sliced if possible",
+      "createdAt": "2026-08-22T19:09:41.089Z",
+      "updatedAt": "2026-08-22T19:09:41.089Z"
+    },
+    {
+      "id": "ord_1787425781082_fa3i7",
+      "orderNumber": "MM-1741",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-22T19:09:41.082Z",
+      "updatedAt": "2026-08-22T19:09:41.082Z"
+    },
+    {
+      "id": "ord_1787425024340_rqb4h",
+      "orderNumber": "MM-9347",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Priya Sharma",
+      "customerPhone": "+91 98111 67890",
+      "paymentPreference": "Cash",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 350,
+      "status": "new",
+      "specialInstructions": "Warm sliced if possible",
+      "createdAt": "2026-08-22T18:57:04.340Z",
+      "updatedAt": "2026-08-22T18:57:04.340Z"
+    },
+    {
+      "id": "ord_1787425024332_0twxt",
+      "orderNumber": "MM-1801",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-22T18:57:04.332Z",
+      "updatedAt": "2026-08-22T18:57:04.332Z"
+    },
+    {
+      "id": "ord_1787424756055_q22b6",
+      "orderNumber": "MM-1408",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Priya Sharma",
+      "customerPhone": "+91 98111 67890",
+      "paymentPreference": "Cash",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 350,
+      "status": "new",
+      "specialInstructions": "Warm sliced if possible",
+      "createdAt": "2026-08-22T18:52:36.055Z",
+      "updatedAt": "2026-08-22T18:52:36.055Z"
+    },
+    {
+      "id": "ord_1787424756047_fk5ht",
+      "orderNumber": "MM-1502",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-22T18:52:36.047Z",
+      "updatedAt": "2026-08-22T18:52:36.047Z"
+    },
+    {
+      "id": "ord_1787423782099_z5uxk",
+      "orderNumber": "MM-4912",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Priya Sharma",
+      "customerPhone": "+91 98111 67890",
+      "paymentPreference": "Cash",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 350,
+      "status": "new",
+      "specialInstructions": "Warm sliced if possible",
+      "createdAt": "2026-08-22T18:36:22.099Z",
+      "updatedAt": "2026-08-22T18:36:22.099Z"
+    },
+    {
+      "id": "ord_1787423782092_otwbs",
+      "orderNumber": "MM-7277",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-22T18:36:22.092Z",
+      "updatedAt": "2026-08-22T18:36:22.092Z"
+    },
+    {
+      "id": "ord_1787423752140_rbe2o",
+      "orderNumber": "MM-4907",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Priya Sharma",
+      "customerPhone": "+91 98111 67890",
+      "paymentPreference": "Cash",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 350,
+      "status": "new",
+      "specialInstructions": "Warm sliced if possible",
+      "createdAt": "2026-08-22T18:35:52.140Z",
+      "updatedAt": "2026-08-22T18:35:52.140Z"
+    },
+    {
+      "id": "ord_1787423752130_jcbkn",
+      "orderNumber": "MM-6248",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-22T18:35:52.130Z",
+      "updatedAt": "2026-08-22T18:35:52.130Z"
+    },
+    {
+      "id": "ord_1787423649329_dd5tm",
+      "orderNumber": "MM-5799",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-22T18:34:09.329Z",
+      "updatedAt": "2026-08-22T18:34:09.329Z"
+    },
+    {
+      "id": "ord_1787419937886_gtevb",
+      "orderNumber": "MM-6156",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "kaushik",
+      "customerPhone": "47570055859",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 2,
+          "price": 9.5
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 19,
+      "status": "new",
+      "specialInstructions": "",
+      "createdAt": "2026-08-22T17:32:17.886Z",
+      "updatedAt": "2026-08-22T17:32:17.886Z"
+    },
+    {
+      "id": "ord_1787418360649_nrbxx",
+      "orderNumber": "MM-5941",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Henri Laurent",
+      "customerPhone": "(555) 902-1844",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 4,
+        "date": "Saturday (Tomorrow)",
+        "time": "11:00 AM",
+        "areaPreference": "Botanical Outdoor Patio"
+      },
+      "totalAmount": 0,
+      "status": "new",
+      "specialInstructions": "Celebrating a graduation",
+      "createdAt": "2026-08-22T17:06:00.649Z",
+      "updatedAt": "2026-08-22T17:06:00.649Z"
+    },
+    {
+      "id": "ord_1787418360640_e0aap",
+      "orderNumber": "MM-6224",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Camille Dubois",
+      "customerPhone": "(555) 771-4920",
+      "items": [
+        {
+          "name": "Pistachio Cardamom Cruffin",
+          "quantity": 3,
+          "price": 6.5
+        },
+        {
+          "name": "Wild Country Hearth Sourdough Loaf",
+          "quantity": 1,
+          "price": 9.5
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 29,
+      "status": "confirmed",
+      "specialInstructions": "Warm the cruffins if possible",
+      "createdAt": "2026-08-22T17:06:00.640Z",
+      "updatedAt": "2026-08-22T17:06:00.666Z"
+    },
+    {
+      "id": "ord_biz_maison_mirabelle_101",
+      "orderNumber": "MM-4821",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Sophie Laurent",
+      "customerPhone": "(555) 234-8910",
+      "items": [
+        {
+          "name": "Pistachio Cardamom Cruffin",
+          "quantity": 2,
+          "price": 6.5
+        },
+        {
+          "name": "Lavender Honey Cloud Oat Latte",
+          "quantity": 1,
+          "price": 6.75
+        }
+      ],
+      "totalAmount": 19.75,
+      "status": "new",
+      "specialInstructions": "Please hold until 10:30 AM batch comes out hot from oven",
+      "createdAt": "2026-08-22T16:40:44.439Z",
+      "updatedAt": "2026-08-22T16:40:44.441Z"
+    },
+    {
+      "id": "ord_biz_maison_mirabelle_102",
+      "orderNumber": "MM-4820",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Alexandre Moreau",
+      "customerPhone": "(555) 871-3329",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 4,
+        "date": "Tomorrow (Sunday)",
+        "time": "10:30 AM",
+        "areaPreference": "Botanical Outdoor Patio"
+      },
+      "totalAmount": 0,
+      "status": "confirmed",
+      "specialInstructions": "Bringing a small hypoallergenic dog for the patio table",
+      "createdAt": "2026-08-22T15:05:44.441Z",
+      "updatedAt": "2026-08-22T16:05:44.441Z"
+    },
+    {
+      "id": "ord_biz_maison_mirabelle_103",
+      "orderNumber": "MM-4819",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Elena Rostova",
+      "customerPhone": "(555) 492-1188",
+      "items": [
+        {
+          "name": "Wild Country Hearth Sourdough Loaf",
+          "quantity": 2,
+          "price": 9.5
+        },
+        {
+          "name": "Gluten-Free Cardamom Hazelnut Financier",
+          "quantity": 4,
+          "price": 5.25
+        }
+      ],
+      "totalAmount": 40,
+      "status": "completed",
+      "specialInstructions": "Packed in biodegradable brown bakery box",
+      "createdAt": "2026-08-22T11:05:44.441Z",
+      "updatedAt": "2026-08-22T14:05:44.441Z"
+    },
+    {
+      "id": "ord_biz_maison_mirabelle_104",
+      "orderNumber": "MM-4818",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Julian Vance",
+      "customerPhone": "(555) 601-9924",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 2,
+        "date": "Today",
+        "time": "3:00 PM",
+        "areaPreference": "Sunlit Window Banquette"
+      },
+      "totalAmount": 0,
+      "status": "completed",
+      "specialInstructions": "Anniversary afternoon tea & espresso tasting",
+      "createdAt": "2026-08-22T05:05:44.441Z",
+      "updatedAt": "2026-08-22T10:25:44.441Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_biz_maison_mirabelle_1",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Ananya Deshmukh",
+      "rating": 5,
+      "comment": "The Cardamom Chai Buns are literally the best pastry in Mumbai! Crispy, fragrant, and perfectly spiced. Mira in the chat helped me pre-order a box for our morning team meeting effortlessly.",
+      "source": "chat",
+      "tags": [
+        "Cardamom Chai Bun",
+        "Fast Order",
+        "Friendly AI"
+      ],
+      "createdAt": "2026-08-26T17:08:21.003Z"
+    },
+    {
+      "id": "rev_biz_maison_mirabelle_2",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Rohan Mehta",
+      "rating": 5,
+      "comment": "The 36-hour sourdough batard had the most incredible blistered crust and tangy open crumb. Ordered for curbside pickup with UPI payment — seamless and delicious.",
+      "source": "storefront",
+      "tags": [
+        "Classic Sourdough",
+        "UPI Payment",
+        "Quick Pickup"
+      ],
+      "createdAt": "2026-08-24T17:08:21.004Z"
+    },
+    {
+      "id": "rev_biz_maison_mirabelle_3",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Kavita Rao",
+      "rating": 5,
+      "comment": "Gulab Jamun Croissant is pure culinary genius! The chat assistant answered all my dietary questions regarding gluten and dairy instantly.",
+      "source": "chat",
+      "tags": [
+        "Fusion Special",
+        "Dietary Clarity"
+      ],
+      "createdAt": "2026-08-22T17:08:21.004Z"
+    },
+    {
+      "id": "rev_biz_maison_mirabelle_4",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Dev Patel",
+      "rating": 5,
+      "comment": "Laminated pistachio cruffins baked to perfection. The Bandra garden patio is dog-friendly and a peaceful morning oasis.",
+      "source": "storefront",
+      "tags": [
+        "Pistachio Cruffin",
+        "Patio Seating"
+      ],
+      "createdAt": "2026-08-19T17:08:21.004Z"
+    },
+    {
+      "id": "rev_biz_maison_mirabelle_5",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Sophie Moreau",
+      "rating": 4,
+      "comment": "Authentic French lamination with subtle saffron and cardamom notes. Love the transparent pricing and instant chat reservation.",
+      "source": "chat",
+      "tags": [
+        "Authentic Butter",
+        "Table Booking"
+      ],
+      "createdAt": "2026-08-16T17:08:21.004Z"
+    }
+  ],
+  "analytics_events": []
+}

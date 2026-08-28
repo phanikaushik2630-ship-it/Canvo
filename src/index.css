@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-cream: #FAF8F5;
+    --color-espresso: #1E1611;
+    --color-terracotta: #C9633A;
+    --color-sage: #4D6652;
+    --color-honey: #D49B37;
+  }
+
+  html, body {
+    background-color: #FAF8F5;
+    color: #231B10;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Safe area utility for bottom drawers and chat input on mobile iOS/Android */
+  .pb-safe {
+    padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+  }
+
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Custom subtle paper grain texture overlay */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.022;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+
+  /* Custom refined scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F4EFE6;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D9C8A8;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C2AD85;
+  }
+}
+
+@layer components {
+  /* Editorial button styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-medium text-sm transition-all duration-200 bg-terracotta-500 hover:bg-terracotta-600 text-white shadow-warm-md hover:shadow-glow-terracotta active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-medium text-sm transition-all duration-200 bg-artisan-100 hover:bg-artisan-200 text-artisan-900 border border-artisan-300/60 shadow-warm-sm hover:shadow-warm-md active:scale-[0.98];
+  }
+
+  .btn-sage {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-medium text-sm transition-all duration-200 bg-sage-500 hover:bg-sage-600 text-white shadow-warm-md hover:shadow-glow-sage active:scale-[0.98];
+  }
+
+  /* Warm editorial card styles */
+  .card-artisan {
+    @apply bg-white/90 backdrop-blur-sm border border-artisan-200/80 rounded-2xl shadow-warm-sm hover:shadow-warm-md transition-all duration-300;
+  }
+
+  .card-parchment {
+    @apply bg-artisan-100/70 backdrop-blur-sm border border-artisan-200 rounded-2xl shadow-warm-sm transition-all duration-300;
+  }
+
+  /* Custom chat bubble shapes */
+  .chat-bubble-bot {
+    @apply bg-white text-artisan-900 border border-artisan-200/80 rounded-2xl rounded-tl-sm px-4 py-3 shadow-warm-sm;
+  }
+
+  .chat-bubble-user {
+    @apply bg-terracotta-500 text-white rounded-2xl rounded-tr-sm px-4 py-3 shadow-warm-sm;
+  }
+
+  /* Input fields */
+  .input-artisan {
+    @apply w-full bg-white/90 border border-artisan-300/80 rounded-xl px-3.5 py-2 text-artisan-900 placeholder:text-artisan-400 focus:outline-none focus:ring-2 focus:ring-terracotta-500/30 focus:border-terracotta-500 transition-all text-sm;
+  }
+}
+
+/* Animations for Chat Message Entrance */
+.animate-message-appear {
+  animation: messageAppear 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes messageAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Markdown content in bot bubbles */
+.prose-bot {
+  font-size: 0.925rem;
+  line-height: 1.55;
+}
+.prose-bot p {
+  margin-bottom: 0.5rem;
+}
+.prose-bot p:last-child {
+  margin-bottom: 0;
+}
+.prose-bot ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+.prose-bot li {
+  margin-bottom: 0.25rem;
+}
+.prose-bot strong {
+  color: #140F08;
+  font-weight: 600;
+}
+.prose-bot code {
+  background-color: #F4EFE6;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+  font-size: 0.85em;
+}
+
+/* Pulsing ambient badge */
+@keyframes pulseDot {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.4;
+  }
+}
+
+.pulse-indicator::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: inherit;
+  animation: pulseDot 2s infinite ease-in-out;
+}

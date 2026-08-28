@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <!-- Background Tile with warm artisanal cream -->
+  <rect width="180" height="180" rx="40" fill="#FAF8F5" />
+  <rect width="176" height="176" x="2" y="2" rx="38" stroke="#E6DEC8" stroke-width="2" />
+
+  <g transform="translate(26, 26) scale(2.666)">
+    <defs>
+      <linearGradient id="leafTerraApple" x1="6" y1="6" x2="30" y2="32" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#F2824B" />
+        <stop offset="100%" stop-color="#C85827" />
+      </linearGradient>
+      <linearGradient id="leafCharcoalApple" x1="18" y1="16" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#463832" />
+        <stop offset="100%" stop-color="#1E1611" />
+      </linearGradient>
+    </defs>
+
+    <!-- Left/Top Botanical Leaf-Comma (Terracotta) -->
+    <path
+      d="M23.2 6.4C14.1 6.8 7 14.2 7 23.5C7 28.6 9.4 33.1 13.2 36C12.8 32.5 13.8 28.7 16.5 25.8C19.6 22.5 24.2 20.8 28.5 21.4C29.2 21.5 29.8 20.8 29.5 20.1C27.8 15.6 25.2 10.4 23.2 6.4Z"
+      fill="url(#leafTerraApple)"
+    />
+
+    <!-- Right/Bottom Botanical Leaf-Comma (Charcoal) -->
+    <path
+      d="M24.8 41.6C33.9 41.2 41 33.8 41 24.5C41 19.4 38.6 14.9 34.8 12C35.2 15.5 34.2 19.3 31.5 22.2C28.4 25.5 23.8 27.2 19.5 26.6C18.8 26.5 18.2 27.2 18.5 27.9C20.2 32.4 22.8 37.6 24.8 41.6Z"
+      fill="url(#leafCharcoalApple)"
+    />
+
+    <!-- Central Dialogue Seed -->
+    <circle cx="24" cy="24" r="2.2" fill="#E2703A" opacity="0.95" />
+  </g>
+</svg>
