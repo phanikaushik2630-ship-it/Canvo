@@ -3,7 +3,7 @@
     {
       "id": "user_demo_01",
       "email": "demo@canvo.app",
-      "passwordHash": "$2b$10$2E3WA/nL3ofalBvEh6f1WunRPpRMDgvHPmwsMLae9ICnCdADisYW6",
+      "passwordHash": "$2b$10$1O7aqlEiTvXew7BWbBDbPOpR8RPmRyiGW5KJgyLjsiuiK0oWPmsGO",
       "name": "Claire Dupont (Owner)",
       "createdAt": "2026-08-22T16:52:26.616Z"
     },
@@ -646,6 +646,150 @@
     }
   ],
   "chat_logs": [
+    {
+      "id": "log_1788012393976_8q1iq",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I reserve a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:33.976Z"
+    },
+    {
+      "id": "log_1788012393601_2ysh3",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 2 cruffins and 1 sourdough loaf",
+      "botAnswer": "Delighted to help you with that order for **2x Classic Sourdough Loaf and 2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:33.601Z"
+    },
+    {
+      "id": "log_1788012393132_bfvic",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours today?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:33.132Z"
+    },
+    {
+      "id": "log_1788012392039_qaj6d",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell replacement car batteries?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-29T14:06:32.039Z"
+    },
+    {
+      "id": "log_1788012391787_khqcv",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "**Are dogs allowed and what is your patio and parking policy in Bandra?**\n\nYes! Our leafy botanical patio in Bandra West has 8 tables and is completely dog-friendly with fresh water bowls and handmade sourdough dog biscuits. Dedicated valet parking is available right in front of Heritage Square.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:31.787Z"
+    },
+    {
+      "id": "log_1788012391242_ve5fs",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:31.242Z"
+    },
+    {
+      "id": "log_1788012378736_v5myf",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I reserve a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:18.736Z"
+    },
+    {
+      "id": "log_1788012378361_47qs1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I'd like to order 2 cruffins and 1 sourdough loaf",
+      "botAnswer": "Delighted to help you with that order for **2x Classic Sourdough Loaf and 2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:18.361Z"
+    },
+    {
+      "id": "log_1788012377892_9lzgk",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What are your hours today?",
+      "botAnswer": "Here are our hours for **Maison Mirabelle**:\n\n• **Today (Saturday):** 07:30 – 17:00 *(Weekend signature cruffins & fusion rolls sell out early)*\n\n**Weekly Schedule:**\n• **Monday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Tuesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Wednesday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Thursday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Friday:** 07:00 – 16:00 — *Fresh sourdough drop at 7:30 AM*\n• **Saturday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*\n• **Sunday:** 07:30 – 17:00 — *Weekend signature cruffins & fusion rolls sell out early*",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:17.892Z"
+    },
+    {
+      "id": "log_1788012376796_g0dil",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell replacement car batteries?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-29T14:06:16.796Z"
+    },
+    {
+      "id": "log_1788012376498_0h9bh",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I bring my dog to the patio?",
+      "botAnswer": "**Are dogs allowed and what is your patio and parking policy in Bandra?**\n\nYes! Our leafy botanical patio in Bandra West has 8 tables and is completely dog-friendly with fresh water bowls and handmade sourdough dog biscuits. Dedicated valet parking is available right in front of Heritage Square.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:16.498Z"
+    },
+    {
+      "id": "log_1788012375985_3cp04",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin?",
+      "botAnswer": "**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:06:15.985Z"
+    },
+    {
+      "id": "log_1788012355622_50up4",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is the price of the Cardamom Chai Bun and Masala Chai?",
+      "botAnswer": "**Cardamom Chai Bun** (₹180.00) [Vegetarian, Nut-Free, Fusion Special, House Favorite]\n\nSwedish-style twisted cardamom knot infused with slow-simmered spiced CTC Assam chai essence and crunchy Swedish pearl sugar.\n\n*Key Ingredients:* Green cardamom, Assam tea concentrate, Cinnamon, Cultured butter, Pearl sugar\n\n*Note:* Fresh drop at 6:45 AM & 10:30 AM daily.\n\n---\n\n**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Masala Chai** (₹120.00) [Vegetarian, Nut-Free, Fusion Special]\n\nTraditional slow-simmered Assam black tea brewed with fresh ginger, whole green cardamom, cinnamon quills, cloves, and whole milk (oat milk available).\n\n*Key Ingredients:* Assam CTC tea, Fresh ginger root, Green cardamom, Cinnamon, Whole milk / Oat milk\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.\n\n---\n\n**Gluten-Free Cardamom Hazelnut Financier** (₹210.00) [Gluten-Free, Vegetarian]\n\nTender almond and hazelnut brown butter tea cake infused with freshly cracked green cardamom (baked in a dedicated GF tray).\n\n*Key Ingredients:* Almond flour, Hazelnut flour, Brown butter, Egg whites, Cardamom",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:05:55.622Z"
+    },
+    {
+      "id": "log_1788012318528_oofge",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Can I book a table for 4 tomorrow at 7pm on the patio?",
+      "botAnswer": "I would be happy to help you request a table booking at **Maison Mirabelle**!\n\nPlease review your party details below, enter your contact information, and tap **Confirm Booking Request** so our host can reserve your spot.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:05:18.528Z"
+    },
+    {
+      "id": "log_1788012318143_yjesz",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "I would like to order 2 Pistachio Cruffins please",
+      "botAnswer": "Delighted to help you with that order for **2x Pistachio Cardamom Cruffin**!\n\nI've prepared your order summary card below. Please review the items, enter your name & phone number, and click **Place Order** to send it directly to our team.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:05:18.143Z"
+    },
+    {
+      "id": "log_1788012304629_w13yf",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is your return policy on pastries?",
+      "botAnswer": "**Do you have Indian items or fusion pastries?**\n\nYes! We feature our signature French-Indian fusion collection: the Cardamom Chai Bun (₹180), Saffron Pista Roll (₹280), Gulab Jamun Croissant (₹290), Masala Chai (₹120), and our savory warm Paneer Tikka Puff (₹220).",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:05:04.629Z"
+    },
+    {
+      "id": "log_1788012298650_jnpv6",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "Do you sell pepperoni pizza?",
+      "botAnswer": "I don't have that specific detail in my current bakery notes, but our counter team would love to assist you at +91 (022) 2640-7491!",
+      "wasUnanswered": true,
+      "timestamp": "2026-08-29T14:04:58.650Z"
+    },
+    {
+      "id": "log_1788012298388_2lda1",
+      "businessId": "biz_maison_mirabelle",
+      "userQuestion": "What is in the Pistachio Cruffin and how much is it?",
+      "botAnswer": "**Saffron Pista Rolls** (₹280.00) [Vegetarian, Fusion Special, House Favorite]\n\nSoft layered brioche swirl filled with Kashmiri saffron frangipane cream, crushed Iranian pistachios, and warm ground cardamom.\n\n*Key Ingredients:* Kashmiri saffron, Sicilian pistachios, Cardamom, Brioche dough, Brown sugar\n\n---\n\n**Pistachio Cardamom Cruffin** (₹280.00) [Vegetarian, House Favorite]\n\nFlaky laminated croissant dough baked in a muffin tin, filled with house-made Sicilian pistachio cream, dusted with crushed green cardamom sugar.\n\n*Key Ingredients:* French AOP butter, Organic wheat flour, Sicilian pistachios, Cardamom, Rose petals\n\n*Note:* Baked fresh at 6:30 AM & 10:30 AM daily.",
+      "wasUnanswered": false,
+      "timestamp": "2026-08-29T14:04:58.388Z"
+    },
     {
       "id": "log_1787936963484_mhn21",
       "businessId": "biz_maison_mirabelle",
@@ -3057,6 +3201,98 @@
   ],
   "orders": [
     {
+      "id": "ord_1788012331128_yqng4",
+      "orderNumber": "MM-1536",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Priya Sharma",
+      "customerPhone": "+91 98111 67890",
+      "paymentPreference": "Cash",
+      "items": [
+        {
+          "name": "Classic Sourdough Loaf",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 350,
+      "status": "new",
+      "specialInstructions": "Warm sliced if possible",
+      "createdAt": "2026-08-29T14:05:31.128Z",
+      "updatedAt": "2026-08-29T14:05:31.128Z"
+    },
+    {
+      "id": "ord_1788012331117_vsy5g",
+      "orderNumber": "MM-5223",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Aarav Patel",
+      "customerPhone": "+91 98200 12345",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Cardamom Chai Bun",
+          "quantity": 2,
+          "price": 180
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 360,
+      "status": "new",
+      "specialInstructions": "Packing for takeaway",
+      "createdAt": "2026-08-29T14:05:31.117Z",
+      "updatedAt": "2026-08-29T14:05:31.117Z"
+    },
+    {
+      "id": "ord_1788012317704_mfxw7",
+      "orderNumber": "MM-2254",
+      "businessId": "biz_maison_mirabelle",
+      "type": "booking",
+      "customerName": "Henri Laurent",
+      "customerPhone": "(555) 902-1844",
+      "paymentPreference": "N/A",
+      "items": [],
+      "bookingDetails": {
+        "partySize": 4,
+        "date": "Saturday (Tomorrow)",
+        "time": "11:00 AM",
+        "areaPreference": "Botanical Outdoor Patio"
+      },
+      "totalAmount": 0,
+      "status": "new",
+      "specialInstructions": "Celebrating a graduation",
+      "createdAt": "2026-08-29T14:05:17.704Z",
+      "updatedAt": "2026-08-29T14:05:17.704Z"
+    },
+    {
+      "id": "ord_1788012317696_q73bj",
+      "orderNumber": "MM-6646",
+      "businessId": "biz_maison_mirabelle",
+      "type": "order",
+      "customerName": "Camille Dubois",
+      "customerPhone": "(555) 771-4920",
+      "paymentPreference": "UPI",
+      "items": [
+        {
+          "name": "Pistachio Cardamom Cruffin",
+          "quantity": 3,
+          "price": 6.5
+        },
+        {
+          "name": "Wild Country Hearth Sourdough Loaf",
+          "quantity": 1,
+          "price": 9.5
+        }
+      ],
+      "bookingDetails": null,
+      "totalAmount": 29,
+      "status": "confirmed",
+      "specialInstructions": "Warm the cruffins if possible",
+      "createdAt": "2026-08-29T14:05:17.696Z",
+      "updatedAt": "2026-08-29T14:05:17.722Z"
+    },
+    {
       "id": "ord_1787936962646_tgqp6",
       "orderNumber": "MM-9258",
       "businessId": "biz_maison_mirabelle",
@@ -3601,6 +3837,29 @@
   ],
   "reviews": [
     {
+      "id": "rev_1788012366486_9r0cb",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Vikram Sengupta",
+      "rating": 5,
+      "comment": "Best artisanal bakery in Bandra. The sourdough batard has great crust and texture.",
+      "source": "storefront",
+      "tags": [],
+      "createdAt": "2026-08-29T14:06:06.486Z"
+    },
+    {
+      "id": "rev_1788012366480_5ghh8",
+      "businessId": "biz_maison_mirabelle",
+      "customerName": "Ananya Deshmukh",
+      "rating": 5,
+      "comment": "Mira in the live chat was fantastic! Answered all allergen questions about the cardamom chai bun.",
+      "source": "chat",
+      "tags": [
+        "Live Chat",
+        "Cardamom Bun"
+      ],
+      "createdAt": "2026-08-29T14:06:06.480Z"
+    },
+    {
       "id": "rev_biz_maison_mirabelle_1",
       "businessId": "biz_maison_mirabelle",
       "customerName": "Ananya Deshmukh",
@@ -3612,7 +3871,7 @@
         "Fast Order",
         "Friendly AI"
       ],
-      "createdAt": "2026-08-26T17:17:10.149Z"
+      "createdAt": "2026-08-27T14:04:52.527Z"
     },
     {
       "id": "rev_biz_maison_mirabelle_2",
@@ -3626,7 +3885,7 @@
         "UPI Payment",
         "Quick Pickup"
       ],
-      "createdAt": "2026-08-24T17:17:10.150Z"
+      "createdAt": "2026-08-25T14:04:52.528Z"
     },
     {
       "id": "rev_biz_maison_mirabelle_3",
@@ -3639,7 +3898,7 @@
         "Fusion Special",
         "Dietary Clarity"
       ],
-      "createdAt": "2026-08-22T17:17:10.150Z"
+      "createdAt": "2026-08-23T14:04:52.528Z"
     },
     {
       "id": "rev_biz_maison_mirabelle_4",
@@ -3652,7 +3911,7 @@
         "Pistachio Cruffin",
         "Patio Seating"
       ],
-      "createdAt": "2026-08-19T17:17:10.150Z"
+      "createdAt": "2026-08-20T14:04:52.528Z"
     },
     {
       "id": "rev_biz_maison_mirabelle_5",
@@ -3665,7 +3924,7 @@
         "Authentic Butter",
         "Table Booking"
       ],
-      "createdAt": "2026-08-16T17:17:10.150Z"
+      "createdAt": "2026-08-17T14:04:52.528Z"
     }
   ],
   "analytics_events": []

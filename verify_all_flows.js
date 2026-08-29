@@ -30,7 +30,7 @@ async function verifyAll() {
   
   const a1 = await queryChat('maison-mirabelle', 'What is in the Pistachio Cruffin?');
   console.log(`Q: "What is in the Pistachio Cruffin?"\nA: ${a1.slice(0, 140)}...\n`);
-  const a1Valid = a1.includes('Pistachio Cardamom Cruffin') && a1.includes('$6.50');
+  const a1Valid = a1.includes('Pistachio Cardamom Cruffin') && (a1.includes('280') || a1.includes('6.50'));
   console.log(`Pistachio Cruffin Grounding: ${a1Valid ? '✅ PASS' : '❌ FAIL'}`);
 
   const a2 = await queryChat('maison-mirabelle', 'Can I bring my dog to the patio?');

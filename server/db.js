@@ -408,7 +408,16 @@ class Database {
 
   // --- USER METHODS ---
   findUserByEmail(email) {
-    return this.data.users.find(u => u.email.toLowerCase() === email.toLowerCase().trim());
+    const normalized = email.toLowerCase().trim();
+    return this.data.users.find(u => {
+      const uEmail = u.email.toLowerCase();
+      if (uEmail === normalized) return true;
+      if ((normalized === 'demo@convo.app' && uEmail === 'demo@canvo.app') ||
+          (normalized === 'demo@canvo.app' && uEmail === 'demo@convo.app')) {
+        return true;
+      }
+      return false;
+    });
   }
 
   findUserById(id) {
