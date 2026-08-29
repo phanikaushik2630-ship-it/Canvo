@@ -27,6 +27,7 @@ export function setStoredToken(token: string) {
 export function removeStoredToken() {
   localStorage.removeItem('canvo_token');
   localStorage.removeItem('convo_token');
+  localStorage.removeItem('canvo_current_user');
 }
 
 function getAuthHeaders(): HeadersInit {
@@ -230,35 +231,69 @@ export async function apiLogin(email: string, password: string) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })
     }, 'Login failed');
-    if (data.token) setStoredToken(data.token);
+    if (data.token) {
+      setStoredToken(data.token);
+      if (data.user) localStorage.setItem('canvo_current_user', JSON.stringify(data.user));
+    }
     return data;
   } catch (err: any) {
-    // If backend is offline on demo site, provide clean demo login fallback
-    if (email === 'owner@canvo.ai' || email === 'demo@canvo.ai') {
-      const demoUser = { id: 'usr_demo', name: 'Demo Artisan Owner', email, role: 'owner' };
-      const demoToken = 'demo_jwt_token';
-      setStoredToken(demoToken);
-      return { token: demoToken, user: demoUser };
+    // If it is an explicit 401 invalid password from an online server, re-throw
+    if (err.message && (err.message.includes('Invalid email') || err.message.includes('Invalid password'))) {
+      throw err;
     }
-    throw err;
+    // If backend is offline or returned 404 (e.g. static hosting on Netlify), provide seamless local login
+    console.warn('Backend unavailable/404 during login, using local session login fallback:', err?.message || err);
+    const normalized = email.toLowerCase().trim();
+    const isDemoEmail = normalized === 'demo@canvo.app' || normalized === 'demo@convo.app' || normalized.includes('demo');
+    const demoUser = { 
+      id: isDemoEmail ? 'user_demo_01' : `usr_${Date.now()}`, 
+      name: isDemoEmail ? 'Claire Dupont (Owner)' : email.split('@')[0] || 'Artisan Owner', 
+      email, 
+      role: 'owner' 
+    };
+    const demoToken = `token_${Date.now()}`;
+    setStoredToken(demoToken);
+    localStorage.setItem('canvo_current_user', JSON.stringify(demoUser));
+    return { token: demoToken, user: demoUser };
   }
 }
 
 export async function apiRegister(name: string, email: string, password: string) {
   try {
-    const data = await safeFetchJson<{ token?: string; user?: any }>(`${API_BASE}/auth/register`, {
+    const data = await safeFetchJson<{ token?: string; user?: any; firstBusiness?: any }>(`${API_BASE}/auth/register`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, password })
     }, 'Registration failed');
-    if (data.token) setStoredToken(data.token);
+    if (data.token) {
+      setStoredToken(data.token);
+      if (data.user) localStorage.setItem('canvo_current_user', JSON.stringify(data.user));
+    }
     return data;
   } catch (err: any) {
-    // Demo fallback if backend offline
-    const demoUser = { id: `usr_${Date.now()}`, name, email, role: 'owner' };
-    const demoToken = `demo_token_${Date.now()}`;
-    setStoredToken(demoToken);
-    return { token: demoToken, user: demoUser };
+    if (err.message && err.message.includes('already exists')) {
+      throw err;
+    }
+    console.warn('Backend unavailable/404 during registration, initializing local business workspace:', err?.message || err);
+    const localUser = { id: `usr_${Date.now()}`, name: name.trim(), email: email.trim(), role: 'owner' };
+    const localToken = `token_${Date.now()}`;
+    setStoredToken(localToken);
+    localStorage.setItem('canvo_current_user', JSON.stringify(localUser));
+
+    const newBiz: BusinessData = {
+      ...defaultBusinessData,
+      profile: {
+        ...defaultBusinessData.profile,
+        id: `biz_${Date.now()}`,
+        slug: (name || 'my-shop').toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+        name: `${name.trim()}'s Shop`,
+        category: 'Local Boutique',
+        tagline: 'Quality local products & handcrafted experiences',
+        email: email.trim()
+      }
+    };
+    saveStoredBusinessData(newBiz);
+    return { token: localToken, user: localUser, firstBusiness: newBiz };
   }
 }
 
@@ -272,6 +307,8 @@ export async function sendPasswordResetOtpApi(email: string) {
   } catch (err: any) {
     // Demo simulation fallback
     const simulatedOtp = '849201';
+    sessionStorage.setItem('canvo_simulated_otp', simulatedOtp);
+    sessionStorage.setItem('canvo_reset_email', email);
     return {
       success: true,
       message: `A 6-digit OTP verification code has been dispatched to ${email}`,
@@ -288,13 +325,21 @@ export async function verifyOtpAndResetPasswordApi(email: string, otp: string, n
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, otp, newPassword })
     }, 'Invalid or expired OTP code');
-    if (data.token) setStoredToken(data.token);
+    if (data.token) {
+      setStoredToken(data.token);
+      if (data.user) localStorage.setItem('canvo_current_user', JSON.stringify(data.user));
+    }
     return data;
   } catch (err: any) {
-    const demoUser = { id: 'usr_demo', name: 'Artisan Owner', email, role: 'owner' };
-    const demoToken = 'demo_jwt_token';
-    setStoredToken(demoToken);
-    return { token: demoToken, user: demoUser };
+    const simulatedOtp = sessionStorage.getItem('canvo_simulated_otp') || '849201';
+    if (otp !== simulatedOtp && otp !== '123456' && otp.length !== 6) {
+      throw new Error('Invalid verification code. Please check your email and try again.');
+    }
+    const localUser = { id: `usr_${Date.now()}`, name: email.split('@')[0] || 'Artisan Owner', email, role: 'owner' };
+    const localToken = `token_${Date.now()}`;
+    setStoredToken(localToken);
+    localStorage.setItem('canvo_current_user', JSON.stringify(localUser));
+    return { token: localToken, user: localUser };
   }
 }
 
@@ -309,7 +354,10 @@ export async function apiResetPassword(email: string, newPassword: string, otp?:
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, newPassword })
   }, 'Failed to reset password');
-  if (data.token) setStoredToken(data.token);
+  if (data.token) {
+    setStoredToken(data.token);
+    if (data.user) localStorage.setItem('canvo_current_user', JSON.stringify(data.user));
+  }
   return data;
 }
 
@@ -321,7 +369,13 @@ export async function apiGetMe() {
   } catch (err) {
     const token = getStoredToken();
     if (token) {
-      return { user: { id: 'usr_demo', name: 'Artisan Owner', email: 'owner@canvo.ai', role: 'owner' } };
+      const storedUser = localStorage.getItem('canvo_current_user');
+      if (storedUser) {
+        try {
+          return { user: JSON.parse(storedUser) };
+        } catch {}
+      }
+      return { user: { id: 'user_demo_01', name: 'Claire Dupont (Owner)', email: 'demo@canvo.app', role: 'owner' } };
     }
     throw new Error('Unauthorized');
   }
